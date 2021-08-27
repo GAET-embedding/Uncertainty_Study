@@ -4,8 +4,8 @@ A study of the existing state-of-the-art uncertainty methods under program distr
 This is a PyTorch implementation of two programming tasks, namely, code summarization and code completion with three model archiectures for each task. We also use the Java and Python extractors for preprocessing the input code. It can also be extended to other languages, since the PyTorch network is agnostic to the input programming language.
 
 ## Requirements
-- [https://www.python.org/downloads/release/python-380/](https://www.python.org/downloads/release/python-380/)
-- PyTorch 1.9.0 ([https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/))
+- [python3](https://www.python.org/downloads/release/python-380/)
+- [PyTorch 1.9.0](https://pytorch.org/get-started/locally/)
 
 ## Quickstart
 ### Step 0: Cloning this repository
@@ -41,7 +41,7 @@ tar -xvzf xxxxx
 ```
 #### Training a model from scratch
 To train a model from scratch:
-- Edit the file [program_tasks/code_summary/train.sh](program_tasks/code_summary/train.sh) (code summary) and file [program_tasks/code_completion/train.sh](program_tasks/code_completion/train.sh) (code completion) to point to the right preprocessed data and a specific model archiecture.
+- Edit the file [program_tasks/code_summary/train.sh](program_tasks/code_summary/train.sh) and file [program_tasks/code_completion/train.sh](program_tasks/code_completion/train.sh) to point to the right preprocessed data and a specific model archiecture.
 - Before training, you can edit the configuration hyper-parameters in these two files.
 - Run the two shell scripts:
 ```

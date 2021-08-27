@@ -27,10 +27,9 @@ tar -xzvf py150.tar.gz
 ```
 ### Step 2: Training a model
 You can either download an already trained model, or train a new model from scratch.
-#### Download a trained model
+#### Download trained [models](https://drive.google.com/file/d/1Vi2iqTyttEWSY3g1iggFsar--IkpRqk1/view?usp=sharing) (compressed: 12 GB)
 ```
-wget xxxxx
-tar -xvzf xxxxx
+unzip models
 ```
 #### Training a model from scratch
 To train a model from scratch:

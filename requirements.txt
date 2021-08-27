@@ -1,0 +1,4 @@
+tensorflow==2.0.0-beta1
+pytorch==1.8.0
+numpy
+javalang
